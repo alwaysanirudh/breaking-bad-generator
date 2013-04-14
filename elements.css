@@ -1,0 +1,92 @@
+#no-element-wrapper{
+    float:left;
+    font-family:helvetica;
+    text-transform:uppercase
+}
+#no-element-inner {
+background-image: -ms-linear-gradient(top left, #56B576 0%, #1A3C15 100%);
+    text-align:center;
+    padding:13px 35px 32px 35px;
+    border:2px solid white;
+    font-size:3em;
+    font-weight:bold;
+}
+.element-wrapper {
+	width:110px;
+	height:100px;
+	border: 2px solid #fff;
+	position: relative;
+	float:left;
+	
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #56B576 0%, #1A3C15 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #56B576 0%, #1A3C15 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #56B576 0%, #1A3C15 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #56B576), color-stop(1, #1A3C15));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #56B576 0%, #1A3C15 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #56B576 0%, #1A3C15 100%);
+}
+.element-top-left {
+	float:left;
+	padding:5px 0px 0px 5px;
+			font-size:9px;
+
+
+}
+.element-top-right{
+	float:right;
+	padding:5px 5px 0px 0px;
+	position:absolute;
+	right:0px;
+	text-align:right;
+			font-size:9px;
+
+}
+
+.element-name {
+	clear:both;
+	text-align:center;
+	font-size:3em;
+	font-weight:bold;
+	font-family: helvetica, sans-serif;
+
+
+	
+}
+
+.element-bottom-one {
+	float:left;
+	clear:both;
+	padding:0px 0px 0px 5px;
+			font-size:16px;
+
+}
+.element-bottom-two {
+	float:left;
+	clear:both;
+	padding:0px 0px 5px 5px;
+			font-size:9px;
+
+
+}
+
+
+._d ._p {
+	display:block!important;
+	visibility:visible!important;
+}
+._p {visibility:hidden;}
+._Z {
+	color:#fff!important;
+	font-family:Helvetica, sans-serif
+}
