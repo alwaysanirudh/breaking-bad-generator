@@ -19,9 +19,5 @@
  if (isset($_POST['Submit'])) { 
  $_SESSION['name'] = $_POST['name'];
  } 
-
- header("Location: print.php");
-
-
 ?>
 

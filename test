@@ -1,0 +1,21 @@
+<?php 
+function DateReplace ($ReplaceText)
+{
+	$Numbers=array(
+		'1' => "<img src='/images/date/1.gif' />",
+		'2' => "<img src='/images/date/2.gif' />",
+		'3' => "<img src='/images/date/3.gif' />",
+		'4' => "<img src='/images/date/4.gif' />",
+		'5' => "<img src='/images/date/5.gif' />",
+		'6' => "<img src='/images/date/6.gif' />",
+		'7' => "<img src='/images/date/7.gif' />",
+		'8' => "<img src='/images/date/8.gif' />",
+		'9' => "<img src='/images/date/9.gif' />",
+		'0' => "<img src='/images/date/0.gif' />"
+	);
+
+	$Date=str_replace(array_keys($Numbers), array_values($Numbers), $ReplaceText);
+
+	return $Date;	
+}
+?>
