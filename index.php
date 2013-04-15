@@ -1,3 +1,12 @@
+<?php
+   session_start();
+
+ if (isset($_POST['Submit'])) { 
+ $_SESSION['name'] = $_POST['name'];
+ header("Location: print.php"); /* Redirect browser */
+
+}
+?>
 <style type="text/css">
 	.element-wrapper {
 		background: #000;
@@ -11,17 +20,5 @@
 <input type="text" name="name"/>
 <input type="submit" name="Submit" value="Submit!" />
 </form>
-<?php
- 
-   session_start();
 
-
- if (isset($_POST['Submit'])) { 
- $_SESSION['name'] = $_POST['name'];
- } 
-
- header("Location: print.php");
-
-
-?>
 
