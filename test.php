@@ -1,24 +1,34 @@
-<style type="text/css">
-	.element-wrapper {
-		background: #000;
-		color: #fff;
-		float: left;
-		margin:0px 10px 0px 0px;
-
-	}
-</style>
-<form action="" method="post">
-<input type="text" name="name"/>
-<input type="submit" name="Submit" value="Submit!" />
-</form>
 <?php
- 
-   session_start();
+/*
+$hasImage = array("a", "b", "c", "d", "e");
 
+//$arr = array(1,2,3,4);
+foreach ($arr1 as $value) {
+if (in_array("$value", $hasImage) {
+     echo '<img src="http://localhost:8888/apps/breaking-bad-generator/images/elements/';
+     echo "$value";
+     echo '.jpg">';
 
- if (isset($_POST['Submit'])) { 
- $_SESSION['name'] = $_POST['name'];
- 
- } 
+}else{
+     echo '$value';
+}
+}
+*/
 ?>
 
+<?php
+
+$hasimage = array("a", "b", "c", "d", "e");
+
+$arr = array(1,2,3,4);
+
+foreach ($arr as $value) {
+	if (in_array($value, $hasimage)){
+		echo '<img src="http://localhost:8888/apps/breaking-bad-generator/images/elements/';
+		echo "$value";
+        echo '.jpg">';
+	}
+	else echo "$value";
+}
+
+?>
