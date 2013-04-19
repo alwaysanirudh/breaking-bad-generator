@@ -1,36 +1,50 @@
 <?php
-   session_start();
 
+session_start();
+$string = str_split($_SESSION['name']);
 
-//split string into an array
-$arr1 = str_split($_SESSION['name']);
-//support double letters, working when just 'ki' is entered but not with other letters
-/*
-if ($_SESSION['name'] = 'br') {
- 	$br = '<img src="http://localhost:8888/apps/breaking-bad-generator/images/elements/br.jpg">';
-echo "$br";
+//Array of images, must contain all characters and double characters
+$hasImage = array("br","n");
+
+//Array of double letter combinations
+$dblLetter = array('br');
+
+$length = count($string);
+
+//Loop through string and search for double letters
+// setting counter
+$j = 0;
+
+for ($i=0; $i<$length;) { 
+	 
+// concatanation
+$tmpStr = $string[$i] . $string[$i+1];
+
+//if $tmpStr is in array put the double letter combo into the first element or $newString array 
+ if (in_array($tmpStr, $dblLetter)) {
+ 
+ $newString[$j] = $tmpStr; 
+ $i = $i+2;
+ $j = $j+1;
+ } 
+ else { 
+ //If double letter combo doesnt exist put the i'th letter (first one from the combo) in the i'th
+ //position in the array
+   $newString[$j] = $string[$i];
+   $i = $i+1;
+   $j = $j+1;	
+ }
 }
-*/
-
-$name = ($_SESSION['name']);
-
-if (strpos($name,'br') !== false) {
-    echo '<img src="http://localhost:8888/apps/breaking-bad-generator/images/elements/br.jpg">';
-}
-
-
-//$arr = array(1,2,3,4);
-
-foreach ($arr1 as $value) {
-	if ("$value" == 'br') {
-		echo 'its a L';
-	}
-	else {
-		
-    echo '<img src="http://localhost:8888/apps/breaking-bad-generator/images/elements/';
-    echo "$value";
-    echo '.jpg" >';
-}
+//Go through elements of array, search for letter with pic, if exists print pic, if doesnt print letter
+foreach ($newString as $value){
+ if (in_array($value, $hasImage)){
+   echo '<img src="http://localhost:8888/apps/breaking-bad-generator/images/elements/';
+   echo $value;
+   echo '.jpg" >';
+ }
+ else {
+   echo $value;
+ }
 }
 
 ?>
