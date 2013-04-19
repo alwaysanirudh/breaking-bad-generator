@@ -47,4 +47,6 @@ foreach ($newString as $value){
  }
 }
 
+session_destroy();
+
 ?>
