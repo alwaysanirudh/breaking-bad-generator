@@ -79,7 +79,7 @@ foreach ($newString as $value){
  if (in_array($value, $hasImage)){
    echo '<img src="http://localhost:8888/apps/breaking-bad-generator/images/elements/';
    echo $value;
-   echo '.jpg" >';
+   echo '.png" >';
  }else{
    echo $value;
  }
