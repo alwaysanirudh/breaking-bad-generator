@@ -13,7 +13,7 @@ $dblLetter = array(
 	'Lu','Md','Mg','Mn','Mo','Mt','Na','Nb','Nd','Ne','Ni','No',
 	'Np','Os','Pa','Pb','Pd','Pm','Po','Pr','Pt','Pu','Ra','Rb',
 	'Re','Rf','Rg','Rh','Rn','Ru','Sb','Sc','Se','Sg','Si','Sm',
-	'Sn','Sr','Ta','Tb','Tc','Te','Th','Ti','Tl','Tm','Xe','Yb'
+	'Sn','Sr','Ta','Tb','Tc','Te','Th','Ti','Tl','Tm','Xe','Yb',
 	'Zn','Zr');
 
 $triLetter = array(
