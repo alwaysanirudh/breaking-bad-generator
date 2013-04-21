@@ -1,8 +1,8 @@
 <?php
    session_start();
 
- if (isset($_POST['Submit'])) { 
- $_SESSION['name'] = $_POST['name'];
+ if (isset($_POST['Submit'])) {
+ $_SESSION['name'] = strtolower($_POST['name']);
  header("Location: print.php"); /* Redirect browser */
 
 }
