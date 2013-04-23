@@ -1,7 +1,9 @@
 <?php
-
 session_start();
-$string = str_split($_SESSION['name']);
+
+$tmpStr = strtolower($_POST['name']);
+
+$string = str_split($tmpStr);
 
 $singleLetter = array('b','c','f','h','i','k','n','o','p','s','u','v','w','y');
 

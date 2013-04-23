@@ -1,24 +1,9 @@
 <?php
-   session_start();
-
- if (isset($_POST['Submit'])) {
- $_SESSION['name'] = strtolower($_POST['name']);
- header("Location: print.php"); /* Redirect browser */
-
-}
+session_start();
+require_once('header.php');
 ?>
-<style type="text/css">
-	.element-wrapper {
-		background: #000;
-		color: #fff;
-		float: left;
-		margin:0px 10px 0px 0px;
 
-	}
-</style>
-<form action="" method="post">
+<form action="print.php" method="post">
 <input type="text" name="name"/>
 <input type="submit" name="Submit" value="Submit!" />
 </form>
-
-
