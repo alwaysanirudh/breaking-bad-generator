@@ -64,7 +64,7 @@ $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 //go through elements of array, search for letter with pic, if exists print pic, if doesnt print letter
 foreach ($newString as $value){
  if (in_array($value, $hasimage)){
-   echo '<img src="http://localhost:8888/apps/breaking-bad-generator/images/elements/';
+   echo '<img src="images/elements/';
    echo $value;
    echo '.png" >';
  }else{
