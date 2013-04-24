@@ -3,12 +3,11 @@ session_start();
 require_once('header.php');
 ?>
  <div class="container">
-
       <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
+       <div class="hero-unit">
         <form action="print.php" method="post">
 <input type="text" name="name"/>
-<input type="submit" name="Submit" value="Submit!" />
+<input class="btn" type="submit" name="Submit" value="Submit!" />
 </form>
       </div>
 

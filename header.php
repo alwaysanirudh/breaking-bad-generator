@@ -10,9 +10,8 @@
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     
-    
-    <link href="js/less-1.3.3.min" rel="stylesheet">
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
