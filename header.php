@@ -55,11 +55,9 @@
                 </ul>
               </li>
             </ul>
-            <form class="navbar-form pull-right">
-              <input class="span2" type="text" placeholder="Email">
-              <input class="span2" type="password" placeholder="Password">
-              <button type="submit" class="btn">Sign in</button>
-            </form>
+              <ul class="nav pull-right">
+                <li class="active"><a href="index.php">Link out</a></li>
+              </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
