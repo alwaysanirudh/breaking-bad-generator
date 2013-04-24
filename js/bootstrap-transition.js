@@ -16,7 +16,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * ========================================================== */
+$(document).ready(function() {
+  
+  $("body").css("display", "none");
 
+    $("body").fadeIn(1000);
+    
+  $("a.transition").click(function(event){
+    event.preventDefault();
+    linkLocation = this.href;
+    $("body").fadeOut(2000, redirectPage);    
+  });
+    
+  function redirectPage() {
+    window.location = linkLocation;
+  }
+  
+});
 
 !function ($) {
 

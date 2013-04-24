@@ -1,5 +1,6 @@
 <?php
 session_start();
+require_once('header.php');
 
 $tmpStr = strtolower($_POST['name']);
 
@@ -75,3 +76,4 @@ foreach ($newString as $value){
 session_destroy();
 
 ?>
+<?php require_once 'footer.php'; ?>
