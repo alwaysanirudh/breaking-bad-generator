@@ -7,3 +7,5 @@ require_once('header.php');
 <input type="text" name="name"/>
 <input type="submit" name="Submit" value="Submit!" />
 </form>
+
+<?php require_once 'footer.php'; ?>
