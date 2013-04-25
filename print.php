@@ -1,3 +1,4 @@
+<div class="wrpper">
 <?php
 session_start();
 require_once('header.php');
@@ -76,4 +77,5 @@ foreach ($newString as $value){
 session_destroy();
 
 ?>
+</div>
 <?php require_once 'footer.php'; ?>

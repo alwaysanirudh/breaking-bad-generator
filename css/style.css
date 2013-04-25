@@ -1,5 +1,17 @@
 /* forms */
+body {
+  margin-top: 60px;
+}
 input[type="text"] {
-	margin:0px;
-	
+  margin:0px; 
+}
+.hero-unit form {
+    text-align:center;
+}
+.hero-unit form input[type="submit"]{
+padding:10px 30px 10px 30px
+}
+.hero-unit form input[type="text"]{
+font-size:1.2em;
+padding:10px;
 }
