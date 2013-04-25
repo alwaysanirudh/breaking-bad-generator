@@ -1,9 +1,10 @@
-<div class="wrpper">
 <?php
 session_start();
 require_once('header.php');
 
 $tmpStr = strtolower($_POST['name']);
+
+// perhaps meth as a magic word
 
 $string = str_split($tmpStr);
 
@@ -77,5 +78,4 @@ foreach ($newString as $value){
 session_destroy();
 
 ?>
-</div>
 <?php require_once 'footer.php'; ?>

@@ -5,6 +5,9 @@ body {
 input[type="text"] {
   margin:0px; 
 }
+.hero-unit {
+border-radius:0px!important   
+}
 .hero-unit form {
     text-align:center;
 }
@@ -14,4 +17,9 @@ padding:10px 30px 10px 30px
 .hero-unit form input[type="text"]{
 font-size:1.2em;
 padding:10px;
+}
+
+/* ================= footer */
+.footer {
+margin: auto auto;
 }
