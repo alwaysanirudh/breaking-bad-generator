@@ -63,19 +63,26 @@ for ($i=0; $i<$length;) {
 }
 
 $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
-
-//go through elements of array, search for letter with pic, if exists print pic, if doesnt print letter
-foreach ($newString as $value){
- if (in_array($value, $hasimage)){
-   echo '<img src="images/elements/';
-   echo $value;
-   echo '.png" >';
- }else{
-   echo $value;
- }
-}
-
-session_destroy();
-
 ?>
-<?php require_once 'footer.php'; ?>
+<div class="container">
+	<div class="hero-unit">
+		<?php 
+		//go through elements of array, search for letter with pic, if exists print pic, if doesnt print letter
+		foreach ($newString as $value){
+		 if (in_array($value, $hasimage)){
+		   echo '<img src="images/elements/';
+		   echo $value;
+		   echo '.png" >';
+		 }else{
+		   echo $value;
+		 }
+		}
+		?>
+	</div>
+	<footer>
+      <p>&copy; Company 2013</p>
+    </footer>
+</div> <!-- /container -->
+
+<?php session_destroy(); 
+require_once 'footer.php'; ?>

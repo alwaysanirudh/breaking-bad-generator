@@ -12,7 +12,10 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/flatstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    
+
+    <!-- fonts -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.min.css" rel="stylesheet">
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -39,7 +42,8 @@
           <a class="brand" href="index.php">Breaking Bad</a>
           <div class="nav-collapse collapse">
               <ul class="nav pull-right">
-                <li class="active"><a href="index.php">Social icons</a></li>
+                <li class="social-links"><a href=""><i class="icon-beaker"></i></a></li>  
+
               </ul>
           </div><!--/.nav-collapse -->
         </div>

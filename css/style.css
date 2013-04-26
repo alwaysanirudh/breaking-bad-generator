@@ -1,14 +1,36 @@
-/* forms */
+
+
+
+
 body {
   margin-top: 60px;
 }
-input[type="text"] {
+
+
+/* navbar */
+
+.navbar-inverse .navbar-inner{
+    background:#193b18;
+
+}
+.navbar a {
+        color:#fff!important;
+        }
+.navbar .nav > .social-links  > a {
+    padding:5px;
+    margin:0px;
+    font-size:20px;
+    color:!important;
+}
+
+/* hero unit */
+.hero-unit input[type="text"] {
   margin:0px; 
 }
 .hero-unit {
 border-radius:0px!important   
 }
-.hero-unit form {
+.hero-unit form, .hero-unit {
     text-align:center;
 }
 .hero-unit form input[type="submit"]{
@@ -17,6 +39,11 @@ padding:10px 30px 10px 30px
 .hero-unit form input[type="text"]{
 font-size:1.2em;
 padding:10px;
+}
+
+/* cta rows ====================*/
+.share {
+margin-right:10px    
 }
 
 /* ================= footer */
