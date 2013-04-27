@@ -30,7 +30,7 @@
 	  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 	  <link rel="shortcut icon" href="ico/favicon.png">
 	</head>
-  <body>
+  <body class="front print" >
      <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">

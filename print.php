@@ -64,8 +64,19 @@ for ($i=0; $i<$length;) {
 
 $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 ?>
-<div class="container">
-	<div class="hero-unit">
+<!-- ammend bg -->
+<style type="text/css">
+	.print{
+background-image:url(images/credit-bg.jpg)!important;
+background-size:cover!important;
+background-color:transparent;!important;
+}
+</style>
+<!--  play sound -->
+
+
+<div class="container" bgsound SRC="../sound/bb.mp3">
+	<div class="hero-unit credit-hero">
 		<?php 
 		//go through elements of array, search for letter with pic, if exists print pic, if doesnt print letter
 		foreach ($newString as $value){
@@ -79,8 +90,21 @@ $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 		}
 		?>
 	</div>
+	
 	<footer>
-      <p>&copy; Company 2013</p>
+		<script>
+		function audio () {
+			// body...
+		
+		var audioElm = document.getElementById('background_audio'); audioElm.muted = !audioElm.muted;
+}
+</script>
+<audio id="background_audio" autoplay="autoplay">
+  <source src="sound/bb.mp3" />
+</audio> 
+
+<a href="#" onclick="javascript:audio()">mute sound</a>
+
     </footer>
 </div> <!-- /container -->
 
