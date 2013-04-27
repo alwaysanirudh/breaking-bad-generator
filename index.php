@@ -2,6 +2,12 @@
 session_start();
 require_once('header.php');
 ?>
+<!-- page style -->
+<style type="text/css">
+.sound-control{
+  display:none;
+}
+</style>
  <div class="container">
     <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">

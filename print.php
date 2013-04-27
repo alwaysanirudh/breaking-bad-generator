@@ -65,31 +65,43 @@ for ($i=0; $i<$length;) {
 $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 ?>
 <!-- ammend bg -->
-<style type="text/css">
-	.print{
-background-image:url(images/credit-bg.jpg)!important;
-background-size:cover!important;
-background-color:transparent;!important;
-}
-</style>
-<!--  play sound -->
+<script>
+  $.backstretch("images/credit-bg.jpg");
+  $(function(){  // $(document).ready shorthand
+
+  $('#print-name').hide().fadeIn(12000);}); // fade in the name
+
+$(document).ready(function() {
+  // Handler for .ready() called.
+
+$('#print-box img').animate({
+    width:'100px',
+    height:'auto',
+}, 9000);
+
+});
+</script>
 
 
 <div class="container" bgsound SRC="../sound/bb.mp3">
-	<div class="hero-unit credit-hero">
-		<?php 
-		//go through elements of array, search for letter with pic, if exists print pic, if doesnt print letter
-		foreach ($newString as $value){
-		 if (in_array($value, $hasimage)){
-		   echo '<img src="images/elements/';
-		   echo $value;
-		   echo '.png" >';
-		 }else{
-		   echo $value;
-		 }
-		}
-		?>
+
+	<div id="print-box">
+		<div class="hero-unit credit-hero" id="print-name">
+			<?php 
+			//go through elements of array, search for letter with pic, if exists print pic, if doesnt print letter
+			foreach ($newString as $value){
+			 if (in_array($value, $hasimage)){
+			   echo '<img src="images/elements/';
+			   echo $value;
+			   echo '.png" >';
+			 }else{
+			   echo $value;
+			 }
+			}
+			?>
+		</div>
 	</div>
+
 	
 	<footer>
 		<script>
@@ -97,14 +109,11 @@ background-color:transparent;!important;
 			// body...
 		
 		var audioElm = document.getElementById('background_audio'); audioElm.muted = !audioElm.muted;
-}
-</script>
-<audio id="background_audio" autoplay="autoplay">
-  <source src="sound/bb.mp3" />
-</audio> 
-
-<a href="#" onclick="javascript:audio()">mute sound</a>
-
+		}
+		</script>
+		<audio id="background_audio" autoplay="autoplay">
+		  <source src="sound/bb.mp3" />
+		</audio> 
     </footer>
 </div> <!-- /container -->
 

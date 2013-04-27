@@ -16,6 +16,16 @@
     <!-- fonts -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/font-awesome-ie7.min.css" rel="stylesheet">
+    
+    <!-- calls needed first -->
+    <script src="js/jquery.js"></script>
+    <script src="js/backstretch.js"></script>
+<script>
+ 
+
+
+
+</script>
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -30,7 +40,7 @@
 	  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 	  <link rel="shortcut icon" href="ico/favicon.png">
 	</head>
-  <body class="front print" >
+  <body class="front" >
      <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -42,6 +52,8 @@
           <a class="brand" href="index.php">Breaking Bad</a>
           <div class="nav-collapse collapse">
               <ul class="nav pull-right">
+                <li class="sound-control"><a href="#" onclick="javascript:audio()"><img src="images/mute.png" width="30px" height="auto"></a></li>
+
                 <li class="social-links"><a href=""><i class="icon-beaker"></i></a></li>  
 
               </ul>

@@ -21,6 +21,12 @@
 
 /* hero unit(s)*/
 
+/* print name */
+#print-box img {
+	width:200px;
+	height:auto;
+}
+
 .hero-unit {
   margin-top: 60px;
 }

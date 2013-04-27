@@ -16,6 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * ========================================================== */
+/*
 $(document).ready(function() {
   
   $("body").css("display", "none");
@@ -33,6 +34,11 @@ $(document).ready(function() {
   }
   
 });
+*/
+
+
+
+
 
 !function ($) {
 

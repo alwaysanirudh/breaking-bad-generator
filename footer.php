@@ -1,6 +1,5 @@
 <!-- Le javascript
     ================================================== -->
-    <script src="js/jquery.js"></script>
     <script src="js/bootstrap-transition.js"></script>
     <script src="js/bootstrap-alert.js"></script>
     <script src="js/bootstrap-modal.js"></script>
