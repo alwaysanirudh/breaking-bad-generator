@@ -64,9 +64,16 @@ for ($i=0; $i<$length;) {
 
 $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 ?>
-<!-- ammend bg -->
+
+<!-- ammend bg  and animate elements-->
 <script>
+
   $.backstretch("images/credit-bg.jpg");
+  setTimeout(function() {
+
+    
+}, 1000)
+
   $(function(){  // $(document).ready shorthand
 
   $('#print-name').hide().fadeIn(12000);}); // fade in the name

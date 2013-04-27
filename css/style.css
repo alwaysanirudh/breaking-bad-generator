@@ -20,7 +20,6 @@
 }
 
 /* hero unit(s)*/
-
 /* print name */
 #print-box img {
 	width:200px;
@@ -57,7 +56,48 @@ padding:10px;
 .share {
 margin-right:10px    
 }
+.ad {
+    float:left;
+}
+.ad-text {
+float:right;
+width:50%;
 
+}
+.ad-choices {
+    width:10px;
+    position:relative;
+    top:-8px;
+    right:-8px;
+    float:right;
+    background-color:#999!important;
+    width:10px;
+    height:10px;
+}
+.ad-image {
+    float:left; 
+    width:40%
+}
+.ad img {
+ float:left;
+    
+}
+.ad {
+    padding:10px;
+    border:1px solid #999;
+}
+
+
+.ad h2 {
+    font-size:1.2em;
+    line-height:20px;
+    color:#00f;
+}
+.ad-tag{
+    color:green;
+    font-size:1empx
+}
+ 
 /* ================= footer */
 .footer {
 margin: auto auto;

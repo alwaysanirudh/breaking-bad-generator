@@ -30,16 +30,25 @@ require_once('header.php');
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
         <div class="span4">
-          <h2><i class="icon-twitter share"></i><i class="icon-facebook share"></i></h2>
-
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <div class="ad">
+            <div class="ad-image">
+              <img src="images/pollos.png">
+            </div>
+            <div class="ad-text">
+              <div class="ad-choices"><img src="images/AdChoices.jpg"></div>
+              <h2>Los Pollos Hermanos</h2>
+              <p class="ad-tag">Albuquerque's finest chicken shops</p>
+              <p class="ad-address"> 4257 Isleta Blvd. SW, Albuquerque, NM</p>
+              <a class="btn" href="http://breakingbad.wikia.com/wiki/Los_Pollos_Hermanos" target="_blank" >Order Online</a>
+            </div>
+          </div>
         </div>
       </div><!-- /row -->
+
+      
+      </div><!-- / row -->
       <hr>
-    <footer>
-      <p>&copy; Company 2013</p>
-    </footer>
+    
   </div> <!-- /container -->
 
 <!-- footer scripts -->
