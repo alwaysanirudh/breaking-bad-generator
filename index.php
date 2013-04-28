@@ -12,8 +12,8 @@ require_once('header.php');
     <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <form action="print.php" method="post">
-          <input type="text" name="name"/>
-          <input class="btn" type="submit" name="Submit" value="Submit!" />
+          <input type="text" name="name" placeholder="Type your name here..."/>
+          <input class="btn" type="submit" name="Submit" value="Break Bad" />
         </form>
       </div>
 
@@ -24,7 +24,8 @@ require_once('header.php');
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus diam a lacus dignissim volutpat. Quisque a turpis vitae augue commodo facilisis accumsan eu purus.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
           <a href="https://twitter.com/share" class="twitter-share-button" data-via="kevin_howbrook" data-size="large" data-hashtags="breakmebad">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <div class="fb-like" data-href="http://localhost:8888/apps/breaking-bad-generator/index.php" data-send="true" data-width="300" data-show-faces="true"></div>
         </div>
         <div class="span4">
           <h2>About The Show</h2>

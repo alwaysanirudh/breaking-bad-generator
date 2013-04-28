@@ -12,8 +12,8 @@ $(divs).show();
 
 	//fades
  	$(function(){  // $(document).ready shorthand
-	  $('.pt').hide().delay(1000).fadeIn(2000).delay(100).fadeOut(5000);// fade in periodic table
-	  $('.meth').hide().fadeIn(2000).fadeOut(8000);// fade in periodic table
+	  $('.pt').hide().delay(1000).fadeIn(2000).delay(100).fadeOut(9000);// fade in periodic table
+	  $('.meth').hide().fadeIn(2000).fadeOut(18000);// fade in periodic table
 	  $('.element').hide().delay(2000).fadeIn(5000);// fade in the name
 	  $('.no-element').hide().fadeIn(20000); // fade in the none elements
 	}); 
@@ -33,7 +33,7 @@ $(divs).show();
 	    9000);
 
 	$('.meth img').animate({
-		width:'1000px',
+		width:'900px',
 	    height:'auto',},
 	    9000);
 
