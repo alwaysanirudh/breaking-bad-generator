@@ -52,8 +52,8 @@ for ($i=0; $i<$length;) {
  		$i = $i+2;
  		$j++;
 
- 	} else { 
- 		
+ 	} else {
+
  		//if double letter combo doesnt exist put the i'th letter (first one from the combo) in the i'th
  		//position in the array
    		$newString[$j] = $string[$i];
@@ -61,6 +61,9 @@ for ($i=0; $i<$length;) {
    		$j++;
  	}
 }
+
+//Replace space with line break
+$newString = str_replace(' ', '<br>', $newString);
 
 $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 ?>
@@ -83,7 +86,7 @@ $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 	<div id="print-box">
 		<div class="hero-unit credit-hero" id="print-name">
 
-			<?php 
+			<?php
 			//go through elements of array, search for letter with pic, if exists print pic, if doesnt print letter
 			foreach ($newString as $value){
 			 if (in_array($value, $hasimage)){
