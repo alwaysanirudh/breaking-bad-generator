@@ -21,6 +21,9 @@
 
 /* hero unit(s)*/
 /* print name */
+#print-box{
+	margin-top:100px;
+}
 #print-box img {
 	width:200px;
 	height:auto;
@@ -50,6 +53,41 @@ padding:10px;
 
 .hero-unit.credit-hero{
     background:none!important;
+    width:50%;
+    margin:auto auto;
+}
+ /* ELEMENTS */
+.element, .no-element {
+	float:left;
+}
+.element {
+    border:1px solid #fff;
+    max-width: 200px;
+}
+.no-element {
+    color:#fff;
+    font-size:4em;
+    padding-top:20px;
+    font-family: cooper;
+}
+.pt{
+	position:fixed;
+	z-index: 1;
+	opacity: .2;
+	width:100%;
+	left:-300px;
+}
+.pt img{
+	width: 100%;
+	height:auto;
+}
+.meth{
+	position:fixed;
+	right:-400px;
+	z-index: 1;
+	opacity: .11;
+	width:100%;
+
 }
 
 /* cta rows ====================*/
@@ -58,6 +96,8 @@ margin-right:10px
 }
 .ad {
     float:left;
+    display: none;
+    margin-bottom:20px;
 }
 .ad-text {
 float:right;
@@ -78,6 +118,12 @@ width:50%;
     float:left; 
     width:40%
 }
+.ad-image-2 img{
+margin-bottom:10px;
+}
+.ad-image-3 {
+    width:40%;
+}
 .ad img {
  float:left;
     
@@ -94,8 +140,8 @@ width:50%;
     color:#00f;
 }
 .ad-tag{
-    color:green;
-    font-size:1empx
+    color:#093;
+    font-size:1em;
 }
  
 /* ================= footer */

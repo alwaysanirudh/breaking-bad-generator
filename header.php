@@ -20,6 +20,8 @@
     <!-- calls needed first -->
     <script src="js/jquery.js"></script>
     <script src="js/backstretch.js"></script>
+    
+
 <script>
  
 
@@ -54,7 +56,7 @@
               <ul class="nav pull-right">
                 <li class="sound-control"><a href="#" onclick="javascript:audio()"><img src="images/mute.png" width="30px" height="auto"></a></li>
 
-                <li class="social-links"><a href=""><i class="icon-beaker"></i></a></li>  
+                <li class="social-links"><a href="http://make7meth.blogspot.co.uk/"><i class="icon-beaker"></i></a></li>  
 
               </ul>
           </div><!--/.nav-collapse -->

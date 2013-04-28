@@ -69,40 +69,31 @@ $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 <script>
 
   $.backstretch("images/credit-bg.jpg");
-  setTimeout(function() {
 
-    
-}, 1000)
+  
+	
 
-  $(function(){  // $(document).ready shorthand
-
-  $('#print-name').hide().fadeIn(12000);}); // fade in the name
-
-$(document).ready(function() {
-  // Handler for .ready() called.
-
-$('#print-box img').animate({
-    width:'100px',
-    height:'auto',
-}, 9000);
-
-});
 </script>
 
-
 <div class="container" bgsound SRC="../sound/bb.mp3">
+<!-- big fades -->	
+<div class="pt"><img src="images/pt-right.png"></div>
+<div class="meth"><img src="images/meth2.png"></div>
 
 	<div id="print-box">
 		<div class="hero-unit credit-hero" id="print-name">
+
 			<?php 
 			//go through elements of array, search for letter with pic, if exists print pic, if doesnt print letter
 			foreach ($newString as $value){
 			 if (in_array($value, $hasimage)){
-			   echo '<img src="images/elements/';
+			   echo '<div class="element"><img src="images/elements/';
 			   echo $value;
-			   echo '.png" >';
+			   echo '.png" ></div>';
 			 }else{
+			   echo '<div class="no-element">';
 			   echo $value;
+			   echo '</div>';
 			 }
 			}
 			?>
@@ -112,9 +103,7 @@ $('#print-box img').animate({
 	
 	<footer>
 		<script>
-		function audio () {
-			// body...
-		
+		function audio () {		
 		var audioElm = document.getElementById('background_audio'); audioElm.muted = !audioElm.muted;
 		}
 		</script>
@@ -126,3 +115,4 @@ $('#print-box img').animate({
 
 <?php session_destroy(); 
 require_once 'footer.php'; ?>
+
