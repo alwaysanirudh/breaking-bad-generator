@@ -53,7 +53,7 @@ padding:10px;
 
 .hero-unit.credit-hero{
     background:none!important;
-    width:50%;
+    width:70%;
     margin:auto auto;
 }
  /* ELEMENTS */
@@ -70,6 +70,19 @@ padding:10px;
     padding-top:25px;
     font-family: cooper;
 }
+
+.no-element .breakit {
+    width:100%!important;
+  margin-top:-30px
+}
+.breakit img {
+    overflow:hidden;
+    width:1000px!important;
+    height:10px!important;
+    visibility:hidden!important;
+    
+}
+
 .pt{
 	position:fixed;
 	z-index: 1;
@@ -89,6 +102,8 @@ padding:10px;
 	width:100%;
 
 }
+
+
 
 /* cta rows ====================*/
 .share {
