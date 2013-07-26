@@ -20,6 +20,7 @@
     <!-- calls needed first -->
     <script src="js/jquery.js"></script>
     <script src="js/backstretch.js"></script>
+    <script src="js/easing.js"></script>
 
 
 <div id="fb-root"></div>

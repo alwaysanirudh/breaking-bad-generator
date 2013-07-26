@@ -14,7 +14,7 @@ $(divs).show();
  	$(function(){  // $(document).ready shorthand
 	  $('.pt').hide().delay(1000).fadeIn(2000).delay(100).fadeOut(9000);// fade in periodic table
 	  $('.meth').hide().fadeIn(2000).fadeOut(18000);// fade in periodic table
-	  $('.element').hide().delay(2000).fadeIn(5000);// fade in the name
+	  $('.element').hide().delay(1000).fadeIn(1000);// fade in the name
 	  $('.no-element').hide().fadeIn(20000); // fade in the none elements
 	}); 
 
@@ -38,3 +38,5 @@ $(divs).show();
 	    9000);
 
 	});
+
+
