@@ -65,7 +65,7 @@ for ($i=0; $i<$length;) {
 //Replace space with line break
 
 
-$newString = str_replace(' ', '<div class="breakit" style="clear:right!important;"><img src="http://placehold.it/100x100" width="100%"></div>', $newString);
+$newString = str_replace(' ', '<div class="breakit"><img src="http://placehold.it/100x100" width="100%"></div>', $newString);
 
 $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 ?>

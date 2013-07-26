@@ -79,6 +79,7 @@ require_once('header.php');
             <div class="ad-choices"><a href="http://www.youradchoices.com/" target="-blank"><img src="images/AdChoices.jpg"></a></div>
             <div class="ad-image-2"><img src="images/savewalter.png"></div>
             <div class="ad-text-2">
+              <h2>"My dad is the best..."</h2>
               <p class="ad-tag">www.savewalterwhite.com</p>
               <p class="ad-address">What a wonderful dad I have, But he is in trouble. It's Lung Cancer. He needs an operation. Now!</p>
               <a class="btn" href="http://www.savewalterwhite.com/" target="_blank" >Donate Now &raquo;</a>
