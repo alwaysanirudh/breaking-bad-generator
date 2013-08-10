@@ -28,8 +28,9 @@ $(divs).show();
 	    9000);
 
 	$('.pt img').delay(1000).animate({
-		width:'1000px',
-	    height:'auto',},
+			width:'1000px',
+		    height:'auto',
+		},
 	    9000);
 
 	$('.meth img').animate({

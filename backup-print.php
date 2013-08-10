@@ -2,7 +2,7 @@
 session_start();
 require_once('header.php');
 
-$tmpStr = strtolower($_POST['name']);
+$tmpStr = strtolower('your name here');
 
 // perhaps meth as a magic word
 
@@ -21,13 +21,12 @@ $dblLetter = array(
 	'sn','sr','ta','tb','tc','te','th','ti','tl','tm','xe','yb',
 	'zn','zr');
 
- $triLetter = array(
-/* tripple letter array removed
+$triLetter = array(
 	'ubb','ube','ubh','ubn','ubo','ubp','ubq','ubs','ubt','ubu',
 	'upb','upn','upt','upu','uqb','uqe','uqh','uqn','uqo','uqp',
 	'uqq','uqs','uqt','uqu','utb','ute','uth','utn','uto','utp',
 	'utq','uts','utt','utu','uue','uuh','uuo','uup','uuq','uus',
-	'uut'*/ );
+	'uut');
 
 $length = count($string);
 
@@ -46,6 +45,7 @@ for ($i=0; $i<$length;) {
 	 	$newString[$j] = $tmpStr1; 
 	 	$i = $i+3;
 	 	$j++;
+	 	
  	
  	} elseif (in_array($tmpStr2, $dblLetter)) {
  
