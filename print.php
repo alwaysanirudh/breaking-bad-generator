@@ -80,9 +80,10 @@ $hasimage = array_merge($singleLetter, $dblLetter, $triLetter);
 	
 
 </script>
-
+<div class="fadein"></div>
 <div class="container" bgsound SRC="../sound/bb.mp3">
 <!-- big fades -->	
+
 <div class="pt"><img src="images/pt-right.png"></div>
 <div class="meth"><img src="images/meth2.png"></div>
 

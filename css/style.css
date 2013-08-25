@@ -19,6 +19,16 @@
     color:!important;
 }
 
+
+.fadein {
+    background-color:#000;
+    width:100%;
+    height:100%!important;
+    display:block;
+    position:fixed;
+    z-index: 9;
+}
+
 /* hero unit(s)*/
 /* print name */
 #print-box{
@@ -62,13 +72,14 @@ padding:10px;
 }
 .element {
     border:1px solid #fff;
-    max-width:200px;
+    max-width:400px;
 }
 .no-element {
     color:#fff;
-    font-size:3em;
-    padding-top:25px;
-    font-family: cooper;
+    letter-spacing: 3px;
+    font-size:150px;
+    padding-top:55px;
+    font-family: heart_breaking_badregular;
 }
 
 .no-element .breakit {

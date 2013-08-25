@@ -12,6 +12,7 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/flatstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="font/stylesheet.css" rel="stylesheet">
 
     <!-- fonts -->
     <link href="css/font-awesome.css" rel="stylesheet">
